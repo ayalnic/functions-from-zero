@@ -1,5 +1,5 @@
-from mylib.bot import scrape
 import click
+from mylib.bot import scrape
 
 
 @click.command()

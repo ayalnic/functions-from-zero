@@ -7,6 +7,7 @@ live training - building python functions from zero
 ### To call Microservice
 ### Or you can run python main.py, open browser, and add /docs to the end of URL to test program
 
+something like this
 ```bash
 curl -X 'POST' \
   'https://probable-space-eureka-j9gwgjxjjw43vj9-8080.app.github.dev/wiki' \
@@ -16,6 +17,16 @@ curl -X 'POST' \
   "name": "Microsoft"
 }'
 ```
+
+### Run container
+
+something like this
+`docker run -p 127.0.0.1:8080:8080 {docker image ls}`
+
+### Invoke POST request
+
+run `invoke.sh`
+docker run ... must have been ran first
 
 
 ### Build container
